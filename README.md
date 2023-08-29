@@ -1,2 +1,2 @@
 # roboshop-ansible
-ansible
+automation-with-ansible
