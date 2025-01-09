@@ -1,8 +1,8 @@
 - name: variable Preference
   hosts: local
   connection: local
-  vars: # play level variable
-    greet: "Play"
+  # vars: # play level variable
+  #   greet: "Play"
   # vars_files: #from files
   #   - course.yml
   # vars_prompt:
@@ -21,4 +21,4 @@
 #2. Task 
 #3. from file
 #4. Prompt
-#5.
+#5. Play level
