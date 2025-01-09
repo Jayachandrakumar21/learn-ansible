@@ -1,7 +1,7 @@
 - name: variables
   hosts: local
   connection: local
-  vars: # PLAY Level Variables
+  vars: # PLAY Level Variables/ Gobal variables
     course: "DevSecOps with AWS"
     duration: 120hrs
     trainer: sivakumar
