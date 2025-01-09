@@ -5,10 +5,10 @@
     greet: "Play"
   # vars_files: #from files
   #   - course.yml
-  vars_prompt:
-  - name: greet
-    prompt: Enter the value
-    private: false
+  # vars_prompt:
+  # - name: greet
+  #   prompt: Enter the value
+  #   private: false
   tasks: #task level
   - name: Print variable
     # vars:
@@ -20,4 +20,5 @@
 #1. Args/command-line
 #2. Task 
 #3. from file
-#4.
+#4. Prompt
+#5.
