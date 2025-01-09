@@ -10,7 +10,7 @@
     private: false
   - name: trainer
     prompt: Please enter Trainer name
-tasks:
-- name: Print Course Information
-  ansible.builtin.debug:
-    msg: "Course is {{course}}, Duration is {{duration}}, Trainer is {{trainer}}"
+  tasks:
+  - name: Print Course Information
+    ansible.builtin.debug:
+      msg: "Course is {{course}}, Duration is {{duration}}, Trainer is {{trainer}}"
