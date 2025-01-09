@@ -4,7 +4,7 @@
   vars:
     course_name: "DevOps with AWS" # String
     duration: 120 # Number
-    topics: # list
+    topics: # list [] 
     - linux
     - shell
     - ansible
@@ -12,7 +12,7 @@
     - kubernetes
     - terraform
     live: true # Boolean
-    tools: # map
+    tools: # map {}
       ci: jenkins #key and values
       cloud: aws
       containerization: docker

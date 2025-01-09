@@ -1,0 +1,17 @@
+- name: check entered number is greater than 100 0r not
+  hosts: local
+  connection: local
+  vars_prompt:
+  - name: num1
+    prompt: Please enter number
+    private: false
+  tasks:
+  - name: print if Given number greater than 100
+    ansible.builtin.debug:
+      msg: "Given {{num1}} is greater than 100"
+    when: num1 > 100
+
+  - name: print if Given number less than or equal to 100
+    ansible.builtin.debug:
+      msg: "Given {{num1}} is less than or equal to 100"
+    when: num1 <= 100
