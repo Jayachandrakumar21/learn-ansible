@@ -1,6 +1,6 @@
 - name: check entered number is greater than 100 0r not
-  hosts: localhost
-  # connection: local
+  hosts: local
+  connection: local
   vars:
     num: 20
   # vars_prompt:
