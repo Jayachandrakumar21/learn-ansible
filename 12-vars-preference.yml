@@ -3,8 +3,8 @@
   connection: local
   # vars: # play level variable
   #   greet: "Play"
-  # vars_files: #from files
-  #   - course.yml
+  vars_files: #from files
+    - course.yml
   # vars_prompt:
   # - name: greet
   #   prompt: Enter the value
@@ -17,9 +17,10 @@
       msg: "Hello from {{greet}}"
 
 
-#1. Args/command-line
-#2. Task 
-#3. from file
+#1. Command-line or args
+#2. Task level
+#3. From file
 #4. Prompt
 #5. Play level
 #6. Inventory
+#7. Roles
