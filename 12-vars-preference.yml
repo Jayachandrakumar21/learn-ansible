@@ -9,10 +9,10 @@
   - name: greet
     prompt: Enter the value
     private: false
-  tasks:
+  tasks: #task level
   - name: Print variable
-    vars:
-      greet: "Task"
+    # vars:
+    #   greet: "Task"
     ansible.builtin.debug:
       msg: "Hello from {{greet}}"
 
