@@ -2,9 +2,7 @@
   hosts: local
   connection: local
   vars_files:
-  - duration.yml
   - course.yml
-  - trainer.yml
   tasks:
     - name: print course information
       ansible.builtin.debug:
